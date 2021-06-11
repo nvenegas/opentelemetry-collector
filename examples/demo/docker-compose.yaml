@@ -31,6 +31,7 @@ services:
     depends_on:
       - jaeger-all-in-one
       - zipkin-all-in-one
+      - prometheus
 
   # Agent
   otel-agent:
